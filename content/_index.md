@@ -1,21 +1,20 @@
 ---
-title : "Session Management"
+title : "AWS FCJ"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# Work with Amazon System Manager - Session Manager
+#AWS CLOUD KNOWLEDGE NOTES!
 
-### Overall
- In this lab, you'll learn the basics and practice of Amazon  System Manager - Session Manager
-. Perform creating public and private instance connections. 
+### Overview
+Welcome to the AWS Cloud journey!
 
-![ConnectPrivate](/images/arc-log.png) 
+Today, I want to share about an important milestone in my learning journey – taking the AWS First Cloud Journey course. This is the first step on the path to learning about AWS Cloud, one of the world's leading cloud computing platforms.
 
-### Content
- 1. [Introduction ](1-introduce/)
- 2. [Preparation](2-prerequiste/)
- 3. [Connect to EC2 instance](3-accessibilitytoinstances/)
- 4. [Manage session logs](4-s3log/)
- 5. [Port Forwarding](5-Portfwd/)
- 6. [Clean up resources](6-cleanup/)
+If you are looking for an opportunity to expand your knowledge of technology, improve your skills, and prepare for the future, AWS First Cloud Journey is the key! Let's learn together, conquer challenges, and open new doors in your career.
+
+🚀Every great journey begins with a small step. Are you ready? Let's explore together!
+
+### Contents
+1. [Introduction](1-introduce/)
+2. [AWS Networking](2-Networking/)

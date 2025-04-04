@@ -1,22 +1,20 @@
 ---
-title : "Session Management"
+title : "AWS FCJ"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# Làm việc với Amazon System Manager - Session Manager
+# GHI CHÚ KIẾN THỨC VỀ ĐIỆN TOÁN ĐÁM MÂY CỦA AWS!
 
 ### Tổng quan
+Chào mừng bạn đến với hành trình khám phá AWS Cloud!
 
- Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon System Manager - Session Management. Thực hành tạo kết nối đến máy chủ public và máy chủ private trong VPC.
+Hôm nay, tôi muốn chia sẻ về một cột mốc quan trọng trong hành trình học tập của mình – tham gia khóa học AWS First Cloud Journey. Đây là bước đầu tiên trên con đường tìm hiểu về AWS Cloud, một trong những nền tảng điện toán đám mây hàng đầu thế giới.
 
-![ConnectPrivate](/images/arc-log.png) 
+Nếu bạn đang tìm kiếm một cơ hội để mở rộng kiến thức về công nghệ, nâng cao kỹ năng và chuẩn bị cho tương lai, thì AWS First Cloud Journey chính là chìa khóa! Hãy cùng nhau học hỏi, chinh phục thử thách và mở ra những cánh cửa mới trong sự nghiệp.
+
+🚀Mọi hành trình vĩ đại đều bắt đầu bằng một bước đi nhỏ. Bạn đã sẵn sàng chưa? Hãy cùng nhau khám phá!
 
 ### Nội dung
-
- 1. [Giới thiệu](1-introduce/)
- 2. [Các bước chuẩn bị](2-Prerequiste/)
- 3. [Tạo kết nối đến máy chủ EC2](3-Accessibilitytoinstance/)
- 4. [Quản lý session logs](4-s3log/)
- 5. [Port Forwarding](5-Portfwd/)
- 6. [Dọn dẹp tài nguyên](6-cleanup/)
+ 1. [Giới thiệu](1-introduce/)
+ 2. [Mạng lưới của AWS](2-Networking/)
