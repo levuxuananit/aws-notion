@@ -6,9 +6,21 @@ chapter : false
 pre : " <b> 2.1 </b> "
 ---
 ### Region
-- **Region** bao gồm cụm data center 
-+ Đường cáp riêng của AWS: kết nối region to region, AZ to AZ;
-+ Best practice: Triển khai ứng dụng từ 2 AZ trở nên, để đảm bảo tính ổn định không bị ảnh hưởng bởi thiên tai;
-AWS Regions are clusters of data centers
-Example of regions: us-east-1, eu-west-1, etc.
-Most services provided by AWS are regions scoped. This means a data for a service used in one region is not replicated in another region
+**Region** là tập hợp các **AZ** (available zone). Hầu hết các dịch vụ do AWS cung cấp đều có phạm; **region**. Điều này có nghĩa là các dữ liệu của dịch vụ trong **region** này không thể sao chép qua **region** khác;
+Ví dụ: us-east-1, eu-west-1,...
+
+### AZ
+**AZ** (available zone) là tập hợp các **data center** có tính độc lập về mặt địa lý. Mỗi **region** có từ 2 đến 6 AZ. Thường thì có 3 AZ
+
+Mỗi AZ là một hoặc nhiều trung tâm dữ liệu riêng biệt với công suất dự phòng, kết nối kết nối
+
+Tất cả các AZ khỏi một khu vực được tách biệt về mặt địa lý
+
+Ngay cả khi chúng được tách ra, chúng có kết nối băng thông cao giữa chúng
+
+{{% notice tip %}}
+**Best practice**: Triển khai ứng dụng tối thiểu trên 2 AZ để đảm bảo tính ổn định, không bị ảnh hưởng bởi thiên tai.
+{{% /notice %}}
+
+
+
